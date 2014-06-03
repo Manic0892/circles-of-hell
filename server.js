@@ -62,7 +62,9 @@ app.use(cookieParser());
 
 // ## Routes
 
-
+app.get('/', function(req,res) {
+	res.send("Circles of Hell");
+});
 
 // Log configuration options to console along with status updates.
 //console.log('Listening on ' + ip + ':' + port);
